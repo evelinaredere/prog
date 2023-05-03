@@ -1,0 +1,11 @@
+import datetime
+
+class Human:
+    def __init__(self, name, surname, email):
+        self.name = name
+        self.surname = surname
+        self.email = email
+        self.datetime_created = datetime.datetime.now()
+
+class Customer(Human):
+    pass
